@@ -1,0 +1,801 @@
+.HeaderBlack {
+    width: 100%;
+    height: 50px;
+}
+
+.HeaderFi {
+    background-color: initial;
+    position: fixed;
+    padding-top: -50px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.iconStyle {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.twitter {
+    color: #00acee;
+}
+
+.youtube {
+    color: red;
+}
+
+.logo {
+    position: fixed;
+    right: 10px;
+    bottom: 17px;
+    z-index: 2;
+}
+
+.help {
+    top: 0px;
+    position: relative;
+}
+
+.divCon {
+    padding-left: 5%;
+}
+
+.Black .HeaderBlack a:hover {
+    color: rgb(235, 48, 157);
+}
+
+.White .HeaderBlack a:hover {
+    color: rgb(0, 183, 255);
+}
+
+.HeaderWhite {
+    width: 100%;
+    height: 50px;
+}
+
+.classq {
+    color: red;
+}
+
+.classq:hover {
+    color: violet;
+}
+
+.navbar {
+    margin: auto;
+    width: 50%;
+    border-bottom: 2px solid;
+    padding-top: 10px;
+    text-align-last: center;
+}
+
+.navbar2 {
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+    text-align-last: center;
+}
+
+.itemContainer {
+    width: 220px;
+    display: inline-block;
+    margin-left: 17px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.itemContainer:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(38, 159, 240);
+    box-shadow: 4px 4px 8px black;
+}
+
+.buttonStyle {
+    border: 0px none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.buttonStyle2 {
+    border: 0px none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient( rgba(136, 236, 253, 0.25), rgba(136, 236, 253, 0.5), rgba(136, 236, 253, 0.25));
+}
+
+.Sun {
+    color: rgb(236, 184, 12)
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.input-container2 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.pro {
+    background-image: linear-gradient( rgba(136, 236, 253, 0.25), rgba(136, 236, 253, 0.5), rgba(136, 236, 253, 0.25));
+    width: 100%;
+    display: flex;
+}
+
+.proinfo {
+    margin: 40px 120px;
+    width: 320px
+}
+
+.proinfo2 {
+    margin: 40px 80px;
+    width: 320px
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid black;
+    border-left: none;
+    opacity: 0.9;
+}
+
+.icon {
+    padding: 10px;
+    background-image: linear-gradient(to right top, #56ccf2 01%, #1e0d33 90%);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid black;
+    border-right: none;
+    opacity: 0.9;
+}
+
+.btn {
+    background-image: linear-gradient(to right top, #56ccf2 01%, #1e0d33 90%);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    opacity: 41;
+}
+
+.OpenForm {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CloseForm {
+    position: fixed;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    visibility: hidden;
+}
+
+.moon {
+    color: black;
+}
+
+.RedHeart {
+    color: red;
+}
+
+.imgItem {
+    width: 100%;
+    height: 70%;
+    display: inline-block;
+}
+
+.imgS {
+    width: 100%;
+}
+
+.infoItem {
+    width: 100%;
+    height: 25%;
+    text-decoration: none;
+    background-image: linear-gradient( rgba(136, 236, 253, 0.25), rgba(136, 236, 253, 0.5), rgba(136, 236, 253, 0.25));
+}
+
+.shipping {
+    color: grey;
+}
+
+.imgItem:hover {
+    opacity: 0.3;
+}
+
+.subheader {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0% 20%;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding-inline-start: 0px;
+    padding-inline-end: 10px;
+}
+
+.subheader2 {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0% 20%;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding-inline-start: 0px;
+    padding-inline-end: 10px;
+}
+
+.HLC {
+    margin-left: 7%;
+    padding: 0px 0px 5px 0px;
+    display: inline-block;
+}
+
+.text {
+    text-decoration: none;
+    color: inherit;
+}
+
+.HLC2 {
+    margin-left: 7%;
+    padding: 5px;
+    display: block;
+}
+
+.line {
+    border-right: 2px solid;
+    text-align-last: center;
+}
+
+.divSizeRight {
+    position: relative;
+    width: fit-content;
+    float: right;
+    bottom: 25px;
+    right: 80px;
+}
+
+.divSizeLeft {
+    position: relative;
+    width: fit-content;
+    float: left;
+    bottom: 22px;
+    left: 10px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.z2 {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.z1 {
+    position: relative;
+    z-index: -1;
+}
+
+.z3 {
+    z-index: -1;
+}
+
+.slideshow {
+    margin: auto;
+    overflow: hidden;
+    max-width: 800px;
+    position: relative;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: 2s;
+}
+
+.slide {
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* Buttons */
+
+.slideshowDots {
+    text-align: center;
+}
+
+.slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+    background-color: #6a0dad;
+}
+
+.proImg {
+    display: inline-block;
+    width: 700px;
+    margin-bottom: 15px;
+}
+
+.imgSize2 {
+    width: 100%;
+}
+
+.proInfo {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+
+.columnp {
+    float: left;
+    width: 25%;
+}
+
+.Sdiv {
+    display: inline-flex;
+}
+
+.rowp>.columnp {
+    padding: 0 0px;
+}
+
+.rowp:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.WPD {
+    width: 50%;
+    padding-left: 23%;
+}
+
+.StyleBorder {
+    position: relative;
+    padding: 5px;
+    border-radius: 25px;
+    background-image: linear-gradient( rgba(136, 236, 253, 0.25), rgba(136, 236, 253, 0.5), rgba(136, 236, 253, 0.25));
+}
+
+.WPD2 {
+    width: 100%;
+    cursor: pointer;
+}
+
+.WPD2:hover {
+    background-color: grey;
+    border-radius: 25px;
+}
+
+
+/*//////*/
+
+.s2 .black {
+    position: relative;
+    line-height: 3;
+    left: 20px;
+    color: aliceblue;
+}
+
+.size {
+    width: 100%;
+}
+
+.sq {
+    text-align: center;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.Style {
+    color: white;
+    text-decoration: none;
+}
+
+.t:hover i {
+    color: rgb(0, 172, 238);
+}
+
+.f:hover i {
+    color: rgb(59, 89, 152);
+}
+
+.y:hover i {
+    color: red;
+}
+
+.ig:hover i {
+    background: radial-gradient( #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.Close {
+    display: none;
+    visibility: hidden;
+}
+
+.display2 {
+    display: none;
+}
+
+.sidenav {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.Black {
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 2, 2);
+}
+
+.White {
+    color: rgb(0, 0, 0);
+    background-color: rgb(206, 205, 205);
+}
+
+.Black .dropdownContent {
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 2, 2);
+}
+
+.White .dropdownContent {
+    color: rgb(0, 0, 0);
+    background-color: rgb(206, 205, 205);
+}
+
+.dropdownContent {
+    font-weight: normal;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    top: 36.4px;
+    animation: AnimationDown 0.5s;
+}
+
+@keyframes AnimationDown {
+    from {
+        height: 0px;
+        opacity: 0;
+    }
+    to {
+        height: 244px;
+        opacity: 0.8;
+    }
+}
+
+.dropdownContent a {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    animation: AnimationDownFont 1.6s;
+}
+
+@keyframes AnimationDownFont {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.White .dropdownContent a:hover {
+    color: rgb(0, 183, 255);
+}
+
+.Black .dropdownContent a:hover {
+    color: rgb(235, 48, 157)
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.change {
+    position: sticky;
+    float: right;
+}
+
+.Control {
+    display: inline;
+    padding: 5%;
+}
+
+.Control2 {
+    display: inline;
+    padding: 5% 0% 5% 0%;
+}
+
+.ButtonsControl:hover {
+    transform: scale(1.0009);
+    box-shadow: 1px 1px 12px 2px rgba(0, 0, 0, .3);
+    background-position: 100% 100%;
+}
+
+.ButtonsControl2 :hover {
+    transform: scale(1.0009);
+    box-shadow: 1px 1px 12px 2px rgba(0, 0, 0, .3);
+    background-position: 100% 100%;
+}
+
+.ButtonsControl2 {
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    height: 44px;
+    width: 165px;
+    position: relative;
+    background: linear-gradient(135deg, rgba(136, 236, 253, 0.25), rgba(136, 236, 253, 0.5), rgba(136, 236, 253, 0.25), rgba(136, 236, 253, 0.5) 50%, #ff3586 75%, #04cae4 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    transition: .6s all;
+}
+
+.ButtonsControl {
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    height: 44px;
+    width: 165px;
+    position: relative;
+    background: linear-gradient(135deg, rgba(136, 236, 253, 0.25), rgba(136, 236, 253, 0.5), rgba(136, 236, 253, 0.25), rgba(136, 236, 253, 0.5) 50%, #ff3586 75%, #04cae4 100%);
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    transition: .6s all;
+}
+
+.column {
+    width: 20%;
+    padding: 10px;
+    height: 300px;
+    display: inline-block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width:1100px) {
+    .or {
+        position: relative;
+        width: 100%;
+        height: 460px;
+        margin: 0%;
+    }
+}
+
+@media(min-width:760px) {
+    .display3 {
+        display: none;
+    }
+}
+
+@media (max-width:760px) {
+    .HeaderBlack {
+        height: 50px;
+    }
+    .OpenForm {
+        width: 50%
+    }
+    .help {
+        top: 0px;
+    }
+    .display {
+        font-size: 30px;
+        display: contents;
+    }
+    .Menu {
+        display: contents;
+        font-size: 30px;
+    }
+    .proImg {
+        display: inline;
+    }
+    .proImg2 {
+        width: 700px;
+        height: 365px;
+    }
+    .proInfo {
+        display: inline;
+    }
+    .navbar,
+    .divSizeLeft {
+        display: none;
+    }
+    .divSizeRight {
+        position: relative;
+        top: 10px;
+    }
+    .Black .OpenSlider {
+        color: rgb(255, 255, 255);
+        background-color: rgb(2, 2, 2);
+    }
+    .White .OpenSlider {
+        color: rgb(0, 0, 0);
+        background-color: rgb(206, 205, 205);
+    }
+    .OpenSlider {
+        max-width: 260px;
+        min-height: 800px;
+        margin: 0px;
+        animation: animateleft 0.7s;
+        position: relative;
+    }
+    .CloseSlider {
+        animation: animateright 0.7s;
+        position: relative;
+        min-height: 800px;
+        margin: 0px;
+        width: 0;
+    }
+    .OCSlider {
+        top: -353px;
+    }
+    .Black .CloseSlider {
+        color: rgb(255, 255, 255);
+        background-color: rgb(2, 2, 2);
+    }
+    .White .CloseSlider {
+        color: rgb(0, 0, 0);
+        background-color: rgb(206, 205, 205);
+    }
+    @keyframes animateleft {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 260px;
+        }
+    }
+    @keyframes animateright {
+        from {
+            width: 260px;
+        }
+        to {
+            width: 0px;
+        }
+    }
+    .SlideContant {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+        padding-top: 0px;
+        padding-bottom: 15%;
+        text-align-last: center;
+    }
+    .Black a:hover {
+        color: rgb(235, 48, 157)
+    }
+    .White a:hover {
+        color: rgb(2, 128, 245);
+    }
+    .postion {
+        position: fixed;
+    }
+    .ulMargin {
+        margin-left: 230px;
+        margin-bottom: 0px;
+        position: relative;
+        top: 10px;
+    }
+    .DropDownOpen a {
+        margin: 5px 0px;
+        display: block;
+        background: #a5a4a4;
+        color: #333;
+        padding: 10px 15px;
+        text-decoration: none;
+        animation: AnimationDown 0.9s;
+        position: relative;
+    }
+    .divCon {
+        padding-left: 0%;
+    }
+    .DropDownClose a {
+        display: none;
+        height: 60px;
+        text-decoration: none;
+        animation: AnimationUp 5s;
+        position: absolute;
+    }
+    @keyframes AnimationDown {
+        from {
+            height: 0px;
+        }
+        to {
+            height: 21px;
+        }
+    }
+    @keyframes AnimationUp {
+        from {
+            height: 21px;
+        }
+        to {
+            height: 0px;
+        }
+    }
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////*/
